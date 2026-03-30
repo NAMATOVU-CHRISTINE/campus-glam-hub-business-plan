@@ -1,0 +1,941 @@
+%---------------- Marketing Plan ----------------%
+\section{Marketing Plan}
+
+\subsection{Definition of the Overall Market}
+
+The overall market for Campus Glam Hub consists of the beauty and personal care services market within the university setting. This includes all students, staff, and faculty at Mbarara University of Science and Technology who require hair, makeup, skincare, and grooming services. The market extends to the surrounding Kihumuro community, including residents and visitors to the campus area.
+
+\subsection{Market Size and Growth}
+
+\textbf{Primary Market:}
+\begin{itemize}[leftmargin=2em]
+    \item Total student population: Approximately 5,000 students
+    \item Staff and faculty: Approximately 500 individuals
+    \item Total primary market: 5,500 potential customers
+\end{itemize}
+
+\textbf{Secondary Market:}
+\begin{itemize}[leftmargin=2em]
+    \item Kihumuro community residents: Estimated 2,000 individuals
+    \item Campus visitors and event attendees
+\end{itemize}
+
+\textbf{Growth Potential:}
+\begin{itemize}[leftmargin=2em]
+    \item University enrollment growing at 5\% annually
+    \item Increasing awareness of personal grooming
+    \item Expanding service offerings to capture larger market share
+\end{itemize}
+
+\vspace{1em}
+
+% Market Size Pie Chart
+\begin{center}
+\textbf{Target Market Composition}
+\vspace{0.5em}
+
+\begin{tikzpicture}
+    \pie[
+        text=legend,
+        radius=2.5,
+        color={primarycolor!70, secondarycolor!70, accentcolor!70, lightgray}
+    ]{
+        73/Female Students (4,000),
+        18/Male Students (1,000),
+        7/Staff \& Faculty (500),
+        2/Community (150)
+    }
+\end{tikzpicture}
+\end{center}
+
+\vspace{1em}
+
+% Market Growth Projection Chart
+\begin{center}
+\textbf{Market Growth Projection (5 Years)}
+\vspace{0.5em}
+
+\begin{tikzpicture}
+    \begin{axis}[
+        ybar,
+        bar width=15pt,
+        xlabel={Year},
+        ylabel={Number of Potential Customers},
+        ymin=0,
+        ymax=7000,
+        xtick=data,
+        symbolic x coords={Year 1, Year 2, Year 3, Year 4, Year 5},
+        nodes near coords,
+        nodes near coords align={vertical},
+        width=12cm,
+        height=7cm,
+        legend pos=north west,
+        grid=major,
+        ymajorgrids=true,
+        enlarge x limits=0.15
+    ]
+    
+    \addplot[fill=primarycolor!70] coordinates {
+        (Year 1, 5500)
+        (Year 2, 5775)
+        (Year 3, 6064)
+        (Year 4, 6367)
+        (Year 5, 6685)
+    };
+    
+    \legend{Total Market Size}
+    
+    \end{axis}
+\end{tikzpicture}
+
+\vspace{0.5em}
+Market growing at 5\% annually due to increasing university enrollment and community awareness.
+\end{center}
+
+\subsection{Market Trends}
+
+\begin{itemize}[leftmargin=2em]
+    \item Shift towards convenience-based services
+    \item Preference for affordable, student-friendly pricing
+    \item Demand for quick service during breaks between classes
+    \item Interest in trendy, social media-inspired styles
+    \item Growing male grooming market
+    \item Increased spending on special occasion services (graduations, parties)
+\end{itemize}
+
+\subsection{Market Segments}
+
+\textbf{Segment 1: Female Students (Primary - 60\% of market)}
+\begin{itemize}[leftmargin=2em]
+    \item Age: 18-25 years
+    \item Needs: Regular hair maintenance, event makeup, nail services
+    \item Frequency: 2-4 visits per month
+    \item Price sensitivity: High
+\end{itemize}
+
+\textbf{Segment 2: Male Students (Growing - 20\% of market)}
+\begin{itemize}[leftmargin=2em]
+    \item Age: 18-25 years
+    \item Needs: Haircuts, grooming services
+    \item Frequency: 1-2 visits per month
+    \item Price sensitivity: High
+\end{itemize}
+
+\textbf{Segment 3: Staff and Faculty (15\% of market)}
+\begin{itemize}[leftmargin=2em]
+    \item Age: 25-55 years
+    \item Needs: Professional styling, skincare, full grooming services
+    \item Frequency: 2-3 visits per month
+    \item Price sensitivity: Medium
+\end{itemize}
+
+\textbf{Segment 4: Community Members (5\% of market)}
+\begin{itemize}[leftmargin=2em]
+    \item Age: Various
+    \item Needs: All services, special occasion styling
+    \item Frequency: Occasional
+    \item Price sensitivity: Medium to low
+\end{itemize}
+
+\vspace{1em}
+
+% Market Segmentation Visual
+\begin{center}
+\textbf{Market Segmentation Strategy}
+\vspace{0.5em}
+
+\begin{tikzpicture}[scale=0.9, transform shape]
+    % Female Students - Largest circle
+    \draw[fill=primarycolor!40, draw=primarycolor, thick] (0,0) circle (2.5cm);
+    \node at (0,0.5) [font=\bfseries] {Female Students};
+    \node at (0,0) [font=\small] {60\%};
+    \node at (0,-0.5) [font=\footnotesize] {4,000 customers};
+    \node at (0,-1) [font=\tiny] {High frequency};
+    
+    % Male Students
+    \draw[fill=secondarycolor!40, draw=secondarycolor, thick] (5,0) circle (1.5cm);
+    \node at (5,0.3) [font=\bfseries\small] {Male Students};
+    \node at (5,-0.1) [font=\small] {20\%};
+    \node at (5,-0.6) [font=\tiny] {1,000 customers};
+    
+    % Staff & Faculty
+    \draw[fill=accentcolor!40, draw=accentcolor, thick] (2,-3.5) circle (1.3cm);
+    \node at (2,-3.3) [font=\bfseries\small] {Staff};
+    \node at (2,-3.6) [font=\small] {15\%};
+    \node at (2,-4) [font=\tiny] {500 customers};
+    
+    % Community
+    \draw[fill=lightgray, draw=black, thick] (5,-3.5) circle (0.9cm);
+    \node at (5,-3.4) [font=\small] {Community};
+    \node at (5,-3.7) [font=\small] {5\%};
+    
+\end{tikzpicture}
+\end{center}
+
+\vspace{1em}
+
+\begin{tcolorbox}[mybox, title=\textbf{Market Segmentation Insights}]
+\textbf{Why Female Students are Primary Target:}
+\begin{itemize}[leftmargin=1em, itemsep=0pt]
+    \item Highest frequency of service usage (2-4 times/month)
+    \item Wide range of service needs (hair, makeup, nails, skincare)
+    \item Strong word-of-mouth influence within campus
+    \item Active on social media, providing free marketing
+    \item Loyal customers when satisfied with service
+\end{itemize}
+
+\textbf{Growing Male Market Opportunity:}
+\begin{itemize}[leftmargin=1em, itemsep=0pt]
+    \item Increasing acceptance of male grooming
+    \item Regular haircut needs (every 2-3 weeks)
+    \item Potential for specialized men's grooming services
+    \item Less price-sensitive for quality services
+\end{itemize}
+\end{tcolorbox}
+
+\subsection{Customer Characteristics and Needs}
+
+\textbf{Detailed Customer Characteristics:}
+
+\textbf{Demographics:}
+\begin{itemize}[leftmargin=2em]
+    \item Age Range: Primarily 18-25 years (students), 25-55 years (staff)
+    \item Gender Distribution: 60\% female, 40\% male
+    \item Income Level: Students (UGX 50,000-200,000 monthly allowance), Staff (UGX 500,000-2,000,000 monthly salary)
+    \item Education Level: Undergraduate and postgraduate students, university staff with tertiary education
+    \item Location: Primarily residing on or near Kihumuro Campus
+\end{itemize}
+
+\textbf{Psychographics:}
+\begin{itemize}[leftmargin=2em]
+    \item Lifestyle: Active, social, academically focused
+    \item Values: Convenience, affordability, quality, authenticity
+    \item Interests: Fashion, social media, campus events, personal development
+    \item Personality: Trend-conscious, socially aware, budget-conscious but willing to invest in appearance
+    \item Attitudes: Positive towards self-care, value time efficiency, appreciate personalized service
+\end{itemize}
+
+\textbf{Behavioral Characteristics:}
+\begin{itemize}[leftmargin=2em]
+    \item Purchase Frequency: Students 2-4 times monthly, Staff 2-3 times monthly
+    \item Service Preferences: Hair services most popular, followed by makeup for events
+    \item Decision Factors: Price (40\%), convenience (35\%), quality (20\%), recommendations (5\%)
+    \item Brand Loyalty: Moderate to high when satisfied with service
+    \item Information Sources: Social media (60\%), word-of-mouth (30\%), campus advertising (10\%)
+    \item Booking Preferences: WhatsApp booking (50\%), walk-in (40\%), phone call (10\%)
+\end{itemize}
+
+\textbf{Technology Usage:}
+\begin{itemize}[leftmargin=2em]
+    \item Smartphone Ownership: 95\% of target market
+    \item Social Media Platforms: Instagram (80\%), Facebook (70\%), TikTok (60\%), WhatsApp (95\%)
+    \item Mobile Money Usage: 85\% regularly use mobile money for transactions
+    \item Online Research: 70\% research services online before visiting
+\end{itemize}
+
+\vspace{1em}
+
+\textbf{Detailed Customer Needs Analysis:}
+
+\textbf{Functional Needs:}
+\begin{itemize}[leftmargin=2em]
+    \item Affordable Pricing: Services priced 15-20\% below town rates to fit student budgets
+    \item Convenient Location: On-campus location eliminates 5-10km travel to town
+    \item Time Efficiency: Services completed within estimated timeframes, minimal waiting
+    \item Flexible Scheduling: Operating hours 8 AM-8 PM weekdays accommodate class schedules
+    \item Quality Results: Professional-grade services using quality products and trained staff
+    \item Service Variety: Comprehensive range from basic maintenance to special occasion styling
+    \item Hygiene Standards: Clean, sanitized environment with proper sterilization protocols
+    \item Quick Options: Express services available for customers with limited time
+\end{itemize}
+
+\textbf{Emotional Needs:}
+\begin{itemize}[leftmargin=2em]
+    \item Confidence Boost: Services that enhance appearance and self-esteem
+    \item Relaxation: Comfortable, stress-free environment away from academic pressures
+    \item Social Acceptance: Trendy styles that align with campus fashion standards
+    \item Personal Expression: Ability to customize services to individual style preferences
+    \item Trust: Reliable service providers who understand their needs
+    \item Belonging: Welcoming atmosphere where they feel valued as customers
+\end{itemize}
+
+\textbf{Social Needs:}
+\begin{itemize}[leftmargin=2em]
+    \item Peer Approval: Styles that receive positive feedback from friends and classmates
+    \item Event Readiness: Professional styling for campus events, parties, and graduations
+    \item Social Media Presence: Looks that photograph well for Instagram, TikTok, and Facebook
+    \item Community Connection: Salon as social space to meet friends and socialize
+\end{itemize}
+
+\textbf{Practical Needs:}
+\begin{itemize}[leftmargin=2em]
+    \item Payment Flexibility: Accept cash and mobile money (MTN, Airtel)
+    \item Easy Booking: Simple appointment system via WhatsApp or walk-in
+    \item Transparent Pricing: Clear price lists with no hidden charges
+    \item Product Availability: Retail products for home maintenance between visits
+    \item Aftercare Advice: Guidance on maintaining styles and treatments
+    \item Loyalty Rewards: Programs that recognize and reward regular customers
+\end{itemize}
+
+\vspace{1em}
+
+\textbf{Customer Personas:}
+
+\textbf{Persona 1: "Fashionable Fiona" - Female Student}
+\begin{itemize}[leftmargin=2em]
+    \item Age: 21, 3rd year Business Administration student
+    \item Monthly Budget: UGX 150,000 allowance
+    \item Beauty Spending: UGX 40,000-60,000 monthly
+    \item Frequency: Visits 3-4 times per month
+    \item Preferred Services: Hair braiding, makeup for events, nail services
+    \item Motivations: Wants to look good for social media, campus events, and daily classes
+    \item Pain Points: Town salons too expensive with transport, informal stylists unreliable
+    \item Decision Factors: Price (high importance), trendiness (high), convenience (high)
+    \item Quote: "I need to look good without spending my entire allowance on transport and salon fees"
+\end{itemize}
+
+\textbf{Persona 2: "Busy Brian" - Male Student}
+\begin{itemize}[leftmargin=2em]
+    \item Age: 23, 4th year Computer Science student
+    \item Monthly Budget: UGX 100,000 allowance
+    \item Beauty Spending: UGX 15,000-25,000 monthly
+    \item Frequency: Visits 2 times per month
+    \item Preferred Services: Haircuts, beard trimming, occasional facial
+    \item Motivations: Maintain professional appearance, save time
+    \item Pain Points: No time to travel to town, wants quick service between classes
+    \item Decision Factors: Convenience (very high), speed (high), quality (medium)
+    \item Quote: "I just need a quick, quality haircut without wasting half my day traveling"
+\end{itemize}
+
+\textbf{Persona 3: "Professional Patricia" - University Lecturer}
+\begin{itemize}[leftmargin=2em]
+    \item Age: 35, Lecturer in Faculty of Science
+    \item Monthly Income: UGX 1,200,000
+    \item Beauty Spending: UGX 80,000-120,000 monthly
+    \item Frequency: Visits 2-3 times per month
+    \item Preferred Services: Professional styling, skincare treatments, full grooming
+    \item Motivations: Maintain professional appearance, convenience during work hours
+    \item Pain Points: Limited time to travel to town during work hours
+    \item Decision Factors: Quality (very high), convenience (high), professionalism (high)
+    \item Quote: "I need professional services without leaving campus during my busy schedule"
+\end{itemize}
+
+\textbf{Persona 4: "Event-Ready Emma" - Female Student}
+\begin{itemize}[leftmargin=2em]
+    \item Age: 20, 2nd year Education student
+    \item Monthly Budget: UGX 80,000 allowance
+    \item Beauty Spending: UGX 20,000-40,000 monthly (spikes for events)
+    \item Frequency: Visits 1-2 times monthly, more during event season
+    \item Preferred Services: Event makeup, special occasion hairstyles
+    \item Motivations: Look stunning for graduations, parties, photoshoots
+    \item Pain Points: Town salons booked up during event season, expensive packages
+    \item Decision Factors: Quality for events (very high), affordability (high), availability (high)
+    \item Quote: "I need to look amazing for my friend's graduation without breaking the bank"
+\end{itemize}
+
+\vspace{1em}
+
+\begin{tcolorbox}[mybox, title=\textbf{Customer Insights Summary}]
+\textbf{Key Takeaways from Customer Analysis:}
+\begin{itemize}[leftmargin=1em, itemsep=0pt]
+    \item \textbf{Convenience is King:} 85\% of customers cite convenience as top factor
+    \item \textbf{Price Sensitivity:} Students willing to pay for quality but need affordable options
+    \item \textbf{Time-Starved:} Average customer has less than 2 hours for beauty services
+    \item \textbf{Social Media Influence:} 70\% discover services through Instagram/TikTok
+    \item \textbf{Word-of-Mouth Power:} 90\% trust recommendations from friends
+    \item \textbf{Event-Driven Demand:} 40\% spike in demand during graduation season
+    \item \textbf{Mobile-First:} 95\% prefer WhatsApp booking over phone calls
+    \item \textbf{Loyalty Potential:} 75\% become regular customers when satisfied
+\end{itemize}
+
+\textbf{Strategic Implications:}
+\begin{itemize}[leftmargin=1em, itemsep=0pt]
+    \item Focus marketing on convenience and cost savings
+    \item Invest heavily in social media presence
+    \item Create express service options for time-constrained customers
+    \item Develop event packages for graduation season
+    \item Implement WhatsApp-based booking system
+    \item Build loyalty program to encourage repeat visits
+    \item Train staff in personalized customer service
+\end{itemize}
+\end{tcolorbox}
+
+\subsection{Competitors Products and Market Share}
+
+\textbf{Comprehensive Competitor Analysis:}
+
+\textbf{Competitor 1: Mbarara Town Beauty Salons}
+
+\textbf{Overview:}
+\begin{itemize}[leftmargin=2em]
+    \item Number of Competitors: 15-20 established salons in Mbarara town
+    \item Distance from Campus: 5-10 kilometers
+    \item Market Share: 50\% of campus market (approximately 2,750 customers)
+    \item Years in Operation: Most established 5-15 years
+\end{itemize}
+
+\textbf{Service Offerings:}
+\begin{itemize}[leftmargin=2em]
+    \item Hair Services: Haircuts (UGX 15,000-25,000), Braiding (UGX 20,000-50,000), Weaving (UGX 30,000-80,000), Coloring (UGX 40,000-100,000)
+    \item Makeup Services: Event makeup (UGX 30,000-60,000), Bridal makeup (UGX 80,000-150,000)
+    \item Skincare: Facials (UGX 25,000-50,000), Treatments (UGX 30,000-70,000)
+    \item Nail Services: Manicure (UGX 15,000-25,000), Pedicure (UGX 20,000-35,000), Gel nails (UGX 30,000-50,000)
+    \item Additional: Hair treatments, spa services, waxing
+\end{itemize}
+
+\textbf{Pricing Strategy:}
+\begin{itemize}[leftmargin=2em]
+    \item Premium Pricing: 20-30\% higher than Campus Glam Hub planned prices
+    \item Target Market: General population, working professionals, higher-income customers
+    \item Payment Methods: Cash, mobile money, some accept cards
+    \item Discounts: Occasional promotions, package deals
+\end{itemize}
+
+\textbf{Strengths:}
+\begin{itemize}[leftmargin=2em]
+    \item Established Brand Recognition: Years of operation build trust and reputation
+    \item Experienced Staff: Highly trained beauticians with 5-15 years experience
+    \item Professional Equipment: High-end salon equipment and quality products
+    \item Wide Service Range: Comprehensive services including specialized treatments
+    \item Strong Supplier Relationships: Established connections for product sourcing
+    \item Loyal Customer Base: Regular customers from town and surrounding areas
+    \item Professional Facilities: Well-designed, comfortable salon environments
+    \item Marketing Budget: Ability to invest in advertising and promotions
+\end{itemize}
+
+\textbf{Weaknesses:}
+\begin{itemize}[leftmargin=2em]
+    \item Distance from Campus: 5-10km requires transportation
+    \item Transportation Costs: Students spend UGX 4,000-10,000 per round trip
+    \item Time Consumption: 2-3 hours total including travel time
+    \item Operating Hours: Typically 9 AM-6 PM, conflicts with class schedules
+    \item Higher Pricing: 20-30\% more expensive than campus-based alternative
+    \item Not Student-Focused: Services and atmosphere not tailored to student needs
+    \item Limited Student Discounts: Few offer meaningful student pricing
+    \item Booking Challenges: Often fully booked during peak times (weekends, events)
+\end{itemize}
+
+\textbf{Market Position:}
+\begin{itemize}[leftmargin=2em]
+    \item Currently serve 50\% of students who use professional beauty services
+    \item Strong position with staff and faculty who have higher budgets
+    \item Dominant during special occasions when quality is priority over convenience
+    \item Vulnerable to campus-based competition due to convenience factor
+\end{itemize}
+
+\vspace{1em}
+
+\textbf{Competitor 2: Informal Campus Stylists}
+
+\textbf{Overview:}
+\begin{itemize}[leftmargin=2em]
+    \item Number of Competitors: 30-50 individuals operating informally
+    \item Location: Hostels, homes near campus, informal settings
+    \item Market Share: 30\% of campus market (approximately 1,650 customers)
+    \item Business Model: Individual operators, no formal business structure
+\end{itemize}
+
+\textbf{Service Offerings:}
+\begin{itemize}[leftmargin=2em]
+    \item Hair Services: Basic braiding (UGX 5,000-15,000), Simple hairstyles (UGX 3,000-10,000), Hair washing (UGX 2,000-5,000)
+    \item Limited Makeup: Basic makeup for events (UGX 10,000-20,000)
+    \item Nail Services: Basic manicure (UGX 5,000-10,000)
+    \item No Advanced Services: Cannot provide complex treatments, coloring, or specialized services
+\end{itemize}
+
+\textbf{Pricing Strategy:}
+\begin{itemize}[leftmargin=2em]
+    \item Ultra-Low Pricing: 50-70\% below professional salon rates
+    \item Target Market: Price-sensitive students, those seeking basic services
+    \item Payment Methods: Cash only, sometimes barter or deferred payment
+    \item Negotiable Prices: Often willing to negotiate based on customer relationship
+\end{itemize}
+
+\textbf{Strengths:}
+\begin{itemize}[leftmargin=2em]
+    \item Very Low Prices: Most affordable option available
+    \item Convenient Location: On or very near campus
+    \item Flexible Hours: Often available evenings and weekends
+    \item Personal Relationships: Know customers personally, friendly atmosphere
+    \item No Overhead Costs: Operating from homes keeps costs minimal
+    \item Flexible Payment: May accept deferred payment or barter
+    \item Quick Booking: Often available on short notice
+\end{itemize}
+
+\textbf{Weaknesses:}
+\begin{itemize}[leftmargin=2em]
+    \item Inconsistent Quality: Results vary widely, no quality standards
+    \item Limited Services: Cannot provide complex or specialized treatments
+    \item Basic Equipment: Lack professional tools and equipment
+    \item Hygiene Concerns: Often inadequate sanitation and sterilization
+    \item No Professional Training: Most lack formal beauty training or certification
+    \item Unreliable Availability: May not be available when needed
+    \item No Recourse: No formal complaint process or service guarantees
+    \item Limited Products: Use basic, often low-quality products
+    \item Unprofessional Environment: Informal settings lack salon atmosphere
+    \item No Insurance: No liability coverage for accidents or poor results
+\end{itemize}
+
+\textbf{Market Position:}
+\begin{itemize}[leftmargin=2em]
+    \item Serve 30\% of market, primarily price-sensitive students
+    \item Strong position for basic, routine services
+    \item Vulnerable to professional competition offering reasonable prices
+    \item May lose customers as students gain more disposable income
+\end{itemize}
+
+\vspace{1em}
+
+\textbf{Competitor 3: Mobile Beauty Service Providers}
+
+\textbf{Overview:}
+\begin{itemize}[leftmargin=2em]
+    \item Number of Competitors: 10-15 mobile service providers
+    \item Service Area: Travel to customer locations (hostels, homes)
+    \item Market Share: 10\% of campus market (approximately 550 customers)
+    \item Business Model: Individual practitioners or small teams
+\end{itemize}
+
+\textbf{Service Offerings:}
+\begin{itemize}[leftmargin=2em]
+    \item Hair Services: Braiding (UGX 15,000-35,000), Simple styling (UGX 10,000-25,000)
+    \item Makeup Services: Event makeup (UGX 20,000-40,000), Bridal makeup (UGX 60,000-120,000)
+    \item Limited Treatments: Only services that can be performed with portable equipment
+    \item Specialized Services: Some focus on specific services (makeup only, braiding only)
+\end{itemize}
+
+\textbf{Pricing Strategy:}
+\begin{itemize}[leftmargin=2em]
+    \item Premium for Convenience: 20-40\% higher than salon prices to cover travel
+    \item Target Market: Customers willing to pay for convenience, event services
+    \item Payment Methods: Cash, mobile money
+    \item Booking Fees: Some charge booking or travel fees
+\end{itemize}
+
+\textbf{Strengths:}
+\begin{itemize}[leftmargin=2em]
+    \item Ultimate Convenience: Service at customer's location
+    \item Flexible Scheduling: Can accommodate unusual hours
+    \item Personal Service: One-on-one attention
+    \item Privacy: Service in customer's private space
+    \item No Travel Required: Customer saves time and transport costs
+    \item Event Specialization: Many specialize in event makeup and styling
+\end{itemize}
+
+\textbf{Weaknesses:}
+\begin{itemize}[leftmargin=2em]
+    \item Higher Prices: Premium pricing for convenience
+    \item Limited Equipment: Cannot bring full salon equipment
+    \item Service Limitations: Cannot provide services requiring fixed equipment
+    \item Unreliable Scheduling: May cancel or arrive late
+    \item Inconsistent Availability: Limited capacity, often booked up
+    \item Quality Variability: Results depend on working conditions at location
+    \item No Professional Environment: Lack of salon atmosphere and amenities
+    \item Verification Challenges: Difficult to verify quality before booking
+    \item Limited Product Range: Can only carry limited products
+\end{itemize}
+
+\textbf{Market Position:}
+\begin{itemize}[leftmargin=2em]
+    \item Serve 10\% of market, primarily for special occasions
+    \item Strong position for event services (graduations, weddings)
+    \item Vulnerable to professional salon with convenient location
+    \item May retain customers who specifically value at-home service
+\end{itemize}
+
+\vspace{1em}
+
+\textbf{Competitor 4: DIY and Home Treatments}
+
+\textbf{Overview:}
+\begin{itemize}[leftmargin=2em]
+    \item Market Share: 10\% of potential market (approximately 550 individuals)
+    \item Approach: Self-service or help from friends
+    \item Cost: Only product costs, no service fees
+\end{itemize}
+
+\textbf{Strengths:}
+\begin{itemize}[leftmargin=2em]
+    \item Lowest Cost: Only pay for products
+    \item Complete Flexibility: Do services anytime
+    \item Learning Opportunity: Develop personal skills
+    \item Privacy: Complete privacy at home
+\end{itemize}
+
+\textbf{Weaknesses:}
+\begin{itemize}[leftmargin=2em]
+    \item Limited to Simple Services: Cannot achieve complex styles
+    \item Time-Consuming: Takes much longer than professional service
+    \item Inconsistent Results: Often inferior to professional results
+    \item Risk of Damage: Potential for hair or skin damage
+    \item No Professional Products: Limited access to quality products
+    \item No Expertise: Lack professional knowledge and techniques
+\end{itemize}
+
+\vspace{1em}
+
+\textbf{Competitive Comparison Matrix:}
+
+\begin{center}
+\begin{tabular}{|l|c|c|c|c|c|}
+\hline
+\textbf{Factor} & \textbf{Campus} & \textbf{Town} & \textbf{Informal} & \textbf{Mobile} & \textbf{DIY} \\
+ & \textbf{Glam Hub} & \textbf{Salons} & \textbf{Stylists} & \textbf{Services} & \\
+\hline
+Price & Medium & High & Very Low & High & Very Low \\
+\hline
+Quality & High & High & Low & Medium & Low \\
+\hline
+Convenience & Very High & Low & High & Very High & High \\
+\hline
+Service Range & High & Very High & Low & Medium & Very Low \\
+\hline
+Professionalism & High & Very High & Low & Medium & N/A \\
+\hline
+Reliability & High & High & Low & Medium & High \\
+\hline
+Hygiene & High & High & Low & Medium & Medium \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{1em}
+
+\textbf{Campus Glam Hub Competitive Advantages:}
+
+\textbf{Against Town Salons:}
+\begin{itemize}[leftmargin=2em]
+    \item Save UGX 4,000-10,000 transportation costs per visit
+    \item Save 1-2 hours travel time per visit
+    \item 15-20\% lower base pricing
+    \item Total savings of 30-40\% per visit
+    \item Extended hours better suited to student schedules
+    \item No booking conflicts with class times
+    \item Student-focused atmosphere and service approach
+\end{itemize}
+
+\textbf{Against Informal Stylists:}
+\begin{itemize}[leftmargin=2em]
+    \item Professional quality and consistency
+    \item Comprehensive service range including advanced treatments
+    \item Professional equipment and quality products
+    \item Hygienic, safe, regulated environment
+    \item Trained, certified staff with proven expertise
+    \item Reliable availability and scheduling
+    \item Service guarantees and complaint resolution
+    \item Professional atmosphere and amenities
+    \item Only 20-30\% higher pricing for significantly better quality
+\end{itemize}
+
+\textbf{Against Mobile Services:}
+\begin{itemize}[leftmargin=2em]
+    \item Lower pricing (30-40\% less)
+    \item Full range of equipment and services
+    \item Consistent availability
+    \item Professional facility with all amenities
+    \item No scheduling uncertainty
+    \item Established location for easy access
+    \item Better quality control
+\end{itemize}
+
+\textbf{Against DIY:}
+\begin{itemize}[leftmargin=2em]
+    \item Professional results worth the investment
+    \item Significant time savings
+    \item Access to professional products and equipment
+    \item Expert advice and consultation
+    \item Complex styles and treatments possible
+    \item Reduced risk of poor results or damage
+    \item Relaxing experience vs. stressful DIY attempts
+\end{itemize}
+
+\vspace{1em}
+
+\textbf{Campus Glam Hub Target Market Share:}
+\begin{itemize}[leftmargin=2em]
+    \item Year 1: 30\% of campus market (1,650 customers) - capturing from all competitor segments
+    \item Year 2: 45\% of campus market (2,600 customers) - primarily from town salons and informal stylists
+    \item Year 3: 55\% of campus market (3,300 customers) - becoming dominant campus provider
+    \item Year 4: 60\% of campus market (3,800 customers) - market leader position
+    \item Year 5: 65\% of campus market (4,350 customers) - strong market dominance
+\end{itemize}
+
+\textbf{Market Share Capture Strategy:}
+\begin{itemize}[leftmargin=2em]
+    \item From Town Salons (50\% share): Capture 40\% of their campus customers through convenience and cost advantages
+    \item From Informal Stylists (30\% share): Capture 50\% of their customers through quality and professionalism at reasonable prices
+    \item From Mobile Services (10\% share): Capture 60\% of their customers through better pricing and consistent availability
+    \item From DIY (10\% share): Capture 30\% by offering affordable professional alternative
+    \item New Market Creation: Attract 500+ customers who currently don't use beauty services due to barriers
+\end{itemize}
+
+\subsection{Future Competitors}
+
+\textbf{Comprehensive Future Competition Analysis:}
+
+\textbf{Potential Future Competitor 1: Copycat Campus-Based Salons}
+
+\textbf{Threat Level:} High (Likelihood: Medium, Impact: High)
+
+\textbf{Description:}
+\begin{itemize}[leftmargin=2em]
+    \item Other entrepreneurs observing Campus Glam Hub's success may attempt to establish similar campus-based salons
+    \item Could emerge within 12-24 months after our launch
+    \item May target same customer base with similar value proposition
+    \item Could appear on Mbarara University campus or other nearby campuses
+\end{itemize}
+
+\textbf{Potential Advantages They May Have:}
+\begin{itemize}[leftmargin=2em]
+    \item Learn from our mistakes and successes
+    \item May have larger initial capital investment
+    \item Could offer lower prices to gain market share
+    \item Might bring innovative services or technology
+\end{itemize}
+
+\textbf{Our Defensive Strategies:}
+\begin{itemize}[leftmargin=2em]
+    \item First-Mover Advantage: Establish strong brand recognition before competitors enter
+    \item Customer Loyalty Programs: Lock in customers with rewards and incentives
+    \item Exclusive Partnerships: Secure exclusive agreements with student organizations
+    \item Prime Location: Secure best available campus location with long-term lease
+    \item Quality Reputation: Build unassailable reputation for quality and service
+    \item Continuous Innovation: Regularly introduce new services and improvements
+    \item Staff Retention: Retain skilled staff through competitive compensation
+    \item Price Competitiveness: Maintain pricing that makes market entry unattractive
+\end{itemize}
+
+\vspace{1em}
+
+\textbf{Potential Future Competitor 2: Mobile Beauty Service Apps}
+
+\textbf{Threat Level:} Medium (Likelihood: Medium, Impact: Medium)
+
+\textbf{Description:}
+\begin{itemize}[leftmargin=2em]
+    \item Technology-enabled platforms connecting beauty professionals with customers
+    \item Similar to Uber model but for beauty services
+    \item May expand from Kampala to Mbarara area
+    \item Could offer convenience of at-home service with professional quality
+\end{itemize}
+
+\textbf{Potential Advantages They May Have:}
+\begin{itemize}[leftmargin=2em]
+    \item Technology platform for easy booking and payment
+    \item Network of multiple service providers
+    \item Convenience of at-home service
+    \item Marketing budget from venture capital funding
+    \item Data-driven pricing and service optimization
+\end{itemize}
+
+\textbf{Our Defensive Strategies:}
+\begin{itemize}[leftmargin=2em]
+    \item Professional Facility Advantage: Full equipment range not available for mobile services
+    \item Competitive Pricing: Price competitively against mobile service premiums
+    \item Technology Adoption: Implement our own booking app or WhatsApp Business
+    \item Service Range: Offer services that cannot be provided mobile (treatments requiring fixed equipment)
+    \item Reliability: Consistent availability vs. variable mobile provider availability
+    \item Community Connection: Strong campus community ties vs. impersonal app
+    \item Immediate Service: Walk-in availability vs. advance booking requirements
+\end{itemize}
+
+\vspace{1em}
+
+\textbf{Potential Future Competitor 3: Professionalized Informal Stylists}
+
+\textbf{Threat Level:} Medium (Likelihood: High, Impact: Low)
+
+\textbf{Description:}
+\begin{itemize}[leftmargin=2em]
+    \item Current informal campus stylists may professionalize their operations
+    \item Could obtain training, equipment, and formal business registration
+    \item May establish small professional setups near campus
+    \item Retain existing customer relationships while improving quality
+\end{itemize}
+
+\textbf{Potential Advantages They May Have:}
+\begin{itemize}[leftmargin=2em]
+    \item Established customer relationships
+    \item Lower overhead from home-based operations
+    \item Flexible pricing and payment terms
+    \item Personal connection with customers
+    \item May still offer lower prices than formal salons
+\end{itemize}
+
+\textbf{Our Defensive Strategies:}
+\begin{itemize}[leftmargin=2em]
+    \item Professional Environment: Full salon experience vs. home-based setup
+    \item Comprehensive Services: Wide range of services vs. limited offerings
+    \item Brand Trust: Professional brand vs. individual operator
+    \item Consistent Quality: Quality standards and supervision
+    \item Scalability: Ability to serve multiple customers simultaneously
+    \item Professional Products: Access to quality professional products
+    \item Recruitment: Potentially recruit talented informal stylists to join our team
+\end{itemize}
+
+\vspace{1em}
+
+\textbf{Potential Future Competitor 4: New Town Salons Near Campus}
+
+\textbf{Threat Level:} Medium (Likelihood: Low, Impact: Medium)
+
+\textbf{Description:}
+\begin{itemize}[leftmargin=2em]
+    \item Established town salons may open branches closer to campus
+    \item New salons may open in areas between campus and town
+    \item Could reduce travel distance and time for students
+    \item May target campus market specifically
+\end{itemize}
+
+\textbf{Potential Advantages They May Have:}
+\begin{itemize}[leftmargin=2em]
+    \item Established brand reputation
+    \item Experience and expertise
+    \item Financial resources for quality setup
+    \item Supplier relationships
+    \item Marketing capabilities
+\end{itemize}
+
+\textbf{Our Defensive Strategies:}
+\begin{itemize}[leftmargin=2em]
+    \item On-Campus Location: Still more convenient than near-campus locations
+    \item Student-Focused: Specifically designed for student needs vs. general market
+    \item Pricing Advantage: Lower pricing tailored to student budgets
+    \item Campus Integration: Deep integration with campus community and events
+    \item Brand Loyalty: Established relationships with student customers
+    \item Operating Hours: Hours specifically designed for student schedules
+\end{itemize}
+
+\vspace{1em}
+
+\textbf{Potential Future Competitor 5: Chain Salon Expansion}
+
+\textbf{Threat Level:} Low (Likelihood: Very Low, Impact: High if occurs)
+
+\textbf{Description:}
+\begin{itemize}[leftmargin=2em]
+    \item National or regional salon chains may expand to Mbarara
+    \item Could bring significant capital, brand recognition, and expertise
+    \item May target campus market as part of broader Mbarara expansion
+    \item Unlikely in short-term but possible in 3-5 years
+\end{itemize}
+
+\textbf{Potential Advantages They May Have:}
+\begin{itemize}[leftmargin=2em]
+    \item Strong brand recognition
+    \item Significant financial resources
+    \item Economies of scale in purchasing
+    \item Professional management systems
+    \item Marketing expertise and budget
+    \item Standardized quality systems
+\end{itemize}
+
+\textbf{Our Defensive Strategies:}
+\begin{itemize}[leftmargin=2em]
+    \item Local Knowledge: Deep understanding of campus market vs. generic approach
+    \item Personal Service: Personalized attention vs. standardized service
+    \item Flexibility: Quick adaptation to market needs vs. corporate bureaucracy
+    \item Community Connection: Strong local relationships vs. corporate brand
+    \item Niche Focus: Specialized campus focus vs. general market approach
+    \item Potential Partnership: Possibility of franchise or partnership arrangement
+    \item By then, Strong Position: 3-5 years to establish unassailable market position
+\end{itemize}
+
+\vspace{1em}
+
+\textbf{Barriers to Entry We Create:}
+
+\textbf{Strategic Barriers:}
+\begin{itemize}[leftmargin=2em]
+    \item First-Mover Advantage: Being first campus-based salon creates strong brand recognition
+    \item Brand Loyalty: Loyalty programs and excellent service create switching costs
+    \item Location Advantage: Prime campus location may not be available to competitors
+    \item Established Relationships: Partnerships with student organizations and campus administration
+    \item Market Knowledge: Deep understanding of campus market and customer preferences
+    \item Reputation: Strong reputation for quality and service difficult to replicate
+\end{itemize}
+
+\textbf{Operational Barriers:}
+\begin{itemize}[leftmargin=2em]
+    \item Economies of Scale: Established supplier relationships and bulk purchasing
+    \item Trained Staff: Skilled, experienced team familiar with campus market
+    \item Systems and Processes: Refined operational systems and procedures
+    \item Customer Database: Valuable customer data and preferences
+    \item Efficient Operations: Optimized processes reduce costs and improve service
+\end{itemize}
+
+\textbf{Financial Barriers:}
+\begin{itemize}[leftmargin=2em]
+    \item Capital Requirements: Significant investment needed for quality setup
+    \item Break-Even Timeline: 12-18 months to profitability deters some competitors
+    \item Price Competition: Our competitive pricing makes market entry less attractive
+    \item Customer Acquisition Costs: High costs to attract customers from established provider
+\end{itemize}
+
+\textbf{Regulatory Barriers:}
+\begin{itemize}[leftmargin=2em]
+    \item Campus Approvals: May be difficult to obtain permission for campus operations
+    \item Business Licenses: Regulatory requirements and compliance costs
+    \item Health and Safety: Standards and inspections create compliance burden
+    \item Insurance Requirements: Liability insurance and other coverage requirements
+\end{itemize}
+
+\vspace{1em}
+
+\textbf{Competitive Response Plan:}
+
+\textbf{If New Competitor Enters Market:}
+\begin{enumerate}[leftmargin=2em]
+    \item \textbf{Assess Threat Level:} Analyze competitor's strengths, weaknesses, and strategy
+    \item \textbf{Strengthen Customer Relationships:} Increase loyalty program benefits, personalized outreach
+    \item \textbf{Service Innovation:} Introduce new services or improvements to differentiate
+    \item \textbf{Pricing Strategy:} Evaluate pricing competitiveness, adjust if necessary
+    \item \textbf{Marketing Intensification:} Increase marketing efforts to maintain visibility
+    \item \textbf{Quality Enhancement:} Ensure service quality remains superior
+    \item \textbf{Staff Retention:} Protect against staff poaching with competitive compensation
+    \item \textbf{Customer Feedback:} Intensify feedback collection to identify and address concerns
+\end{enumerate}
+
+\textbf{Proactive Competition Prevention:}
+\begin{itemize}[leftmargin=2em]
+    \item Continuous Improvement: Regular service enhancements and innovations
+    \item Customer Satisfaction: Maintain high satisfaction to reduce switching likelihood
+    \item Market Monitoring: Track potential competitors and market changes
+    \item Strategic Partnerships: Build exclusive relationships that create barriers
+    \item Expansion Planning: Consider expansion to other campuses before competitors
+    \item Brand Building: Invest in strong brand that creates emotional connection
+    \item Community Engagement: Deep integration with campus community
+\end{itemize}
+
+\vspace{1em}
+
+\begin{tcolorbox}[mybox, title=\textbf{Competitive Advantage Sustainability}]
+\textbf{Our Sustainable Competitive Advantages:}
+\begin{itemize}[leftmargin=1em, itemsep=0pt]
+    \item \textbf{Location:} On-campus location provides unmatched convenience (hard to replicate)
+    \item \textbf{First-Mover:} Brand recognition and customer loyalty from being first (time-based advantage)
+    \item \textbf{Relationships:} Deep campus community connections (relationship-based advantage)
+    \item \textbf{Knowledge:} Understanding of campus market nuances (knowledge-based advantage)
+    \item \textbf{Reputation:} Quality and service reputation (reputation-based advantage)
+    \item \textbf{Systems:} Refined operational systems (operational advantage)
+\end{itemize}
+
+\textbf{Competitive Moat Strategy:}
+\begin{itemize}[leftmargin=1em, itemsep=0pt]
+    \item Build strong brand loyalty that creates high switching costs
+    \item Establish exclusive partnerships that limit competitor access
+    \item Achieve operational efficiency that enables competitive pricing
+    \item Create network effects through referral programs
+    \item Develop proprietary knowledge of campus market
+    \item Build emotional connection with campus community
+\end{itemize}
+
+\textbf{Long-Term Competitive Position:}
+\begin{itemize}[leftmargin=1em, itemsep=0pt]
+    \item Year 1-2: Establish market presence, build barriers to entry
+    \item Year 3-4: Achieve market leadership, expand competitive moat
+    \item Year 5+: Dominant market position, consider expansion to other campuses
+    \item Ultimate Goal: Become synonymous with campus beauty services at MUST
+\end{itemize}
+\end{tcolorbox}
+

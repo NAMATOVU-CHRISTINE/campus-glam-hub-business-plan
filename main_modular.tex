@@ -1,0 +1,177 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{pgf-pie}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{mathptmx}
+\usepackage[T1]{fontenc}
+\usepackage{longtable}
+\usepackage{caption}
+
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{shapes.geometric, arrows, positioning, calc, shadows, decorations.pathreplacing}
+
+% Define colors
+\definecolor{primarycolor}{RGB}{138,43,226}
+\definecolor{secondarycolor}{RGB}{255,182,193}
+\definecolor{accentcolor}{RGB}{255,215,0}
+\definecolor{lightgray}{RGB}{240,240,240}
+
+% Set all text to black
+\AtBeginDocument{\color{black}}
+
+% Make hyperlinks black
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,
+    urlcolor=black,
+    citecolor=black
+}
+
+% Ensure Times New Roman throughout
+\renewcommand{\rmdefault}{ptm}
+
+% Title formatting - black text, Times New Roman
+\titleformat{\section}{\Large\bfseries\fontfamily{ptm}\selectfont\color{black}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\fontfamily{ptm}\selectfont\color{black}}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries\fontfamily{ptm}\selectfont\color{black}}{\thesubsubsection}{1em}{}
+
+% Custom box styles
+\tcbset{
+    mybox/.style={
+        colback=lightgray,
+        colframe=primarycolor,
+        boxrule=1pt,
+        arc=3mm,
+        left=5pt,
+        right=5pt,
+        top=5pt,
+        bottom=5pt,
+        fontupper=\color{black}\fontfamily{ptm}\selectfont
+    }
+}
+
+% Line spacing set to 1.5
+\setstretch{1.5}
+
+% Better spacing around figures and diagrams
+\setlength{\intextsep}{12pt plus 2pt minus 2pt}
+\setlength{\textfloatsep}{12pt plus 2pt minus 2pt}
+
+% Caption formatting
+\captionsetup{
+    font={small,sf},
+    labelfont=bf,
+    skip=10pt
+}
+
+% Ensure table of contents is black
+\addtocontents{toc}{\protect\color{black}}
+
+\begin{document}
+
+%============================================
+% FRONT MATTER
+%============================================
+
+%---------------- Cover Page ----------------%
+\begin{titlepage}
+\begin{center}
+% University Logo
+\includegraphics[width=0.3\textwidth]{download.png} \\[1em]
+
+% University and Faculty Information
+{\large\textbf{Mbarara University of Science and Technology}} \\[1em]
+{\textbf{Faculty of Computing and Informatics}} \\[0.5em]
+{\textbf{Bachelor of Science in Computer Science}}
+
+\vspace{3em}
+
+% Student Details
+\begin{tabular}{l}
+\textbf{Name:} Namatovu Christine \\[1em]
+\textbf{Reg No:} 2023/BCS/004 \\[1em]
+\textbf{Course:} Business and Entrepreneurship \\[1em]
+\textbf{Course Code:} CSC3201 \\[1em]
+\textbf{Lecturer:} Dr. Ruth Nakato \\[1em]
+\textbf{Date:} March 2026 \\[1em]
+\end{tabular}
+
+\end{center}
+\end{titlepage}
+
+%---------------- Table of Contents ----------------%
+\newpage
+\tableofcontents
+\newpage
+
+%---------------- Business Plan Summary Page ----------------%
+\begin{center}
+{\LARGE\textbf{Business Plan}}
+\end{center}
+
+\vspace{2em}
+
+\begin{center}
+\begin{tabular}{ll}
+\textbf{Business Name:} & Campus Glam Hub \\[1.5em]
+\textbf{Address:} & Kihumuro Campus, Mbarara, Uganda \\[1.5em]
+\textbf{Phone Number:} & +256 789 659 819 / +256 753 931 683 \\[1.5em]
+\textbf{Management Team:} & Namatovu Christine -- Owner \& Founder \\
+& Dr. Ruth Nakato -- Lecturer \& Advisor \\
+\end{tabular}
+\end{center}
+
+%============================================
+% MAIN SECTIONS (Include separate files)
+%============================================
+
+% Section 1: Executive Summary
+\newpage
+\input{section1_executive_summary}
+
+% Section 2: Business Description  
+\newpage
+\input{section2_business_description}
+
+% Section 3: Description of Industry
+\newpage
+\input{section3_industry}
+
+% Section 4: Marketing Plan
+\newpage
+\input{section4_marketing}
+
+% Section 5: Sales and Marketing Strategy
+\newpage
+\input{section5_sales_strategy}
+
+% Section 6: Production and Operation Plan
+\newpage
+\input{section6_operations}
+
+% Section 7: Management and Organization Plan
+\newpage
+\input{section7_management}
+
+% Section 8: Financial Plan
+\newpage
+\input{section8_financial}
+
+% Section 9: Appendices
+\newpage
+\input{section9_appendices}
+
+\end{document}

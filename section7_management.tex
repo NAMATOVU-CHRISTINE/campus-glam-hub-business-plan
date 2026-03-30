@@ -1,0 +1,203 @@
+%---------------- Management and Organization Plan ----------------%
+\section{Management and Organization Plan}
+
+\subsection{Management Team}
+
+\textbf{Namatovu Christine -- Owner \& Manager}
+\begin{itemize}[leftmargin=2em]
+    \item Education: Bachelor of Science in Computer Science (in progress), Mbarara University
+    \item Role: Overall business strategy, financial management, operations oversight
+    \item Responsibilities:
+    \begin{itemize}
+        \item Strategic planning and business development
+        \item Financial management and budgeting
+        \item Marketing and brand development
+        \item Supplier relationships and negotiations
+        \item Staff recruitment and management
+        \item Compliance with regulations
+    \end{itemize}
+    \item Time commitment: Full-time
+\end{itemize}
+
+\textbf{Dr. Ruth Nakato -- Business Advisor}
+\begin{itemize}[leftmargin=2em]
+    \item Education: PhD, Lecturer at Mbarara University
+    \item Role: Strategic advisor and mentor
+    \item Responsibilities:
+    \begin{itemize}
+        \item Provide business guidance and mentorship
+        \item Review business strategies and plans
+        \item Offer academic and professional insights
+        \item Connect business with university resources
+    \end{itemize}
+    \item Time commitment: Advisory (as needed)
+\end{itemize}
+
+\subsection{Board of Directors}
+
+As a small startup business, Campus Glam Hub will initially operate without a formal board of directors. However, an advisory board will be established consisting of:
+
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{Dr. Ruth Nakato} -- Business and Academic Advisor
+    \item \textbf{Beauty Industry Professional} -- Technical advisor (to be appointed)
+    \item \textbf{Financial Advisor} -- Accountant or financial consultant (to be appointed)
+\end{itemize}
+
+As the business grows, a formal board may be established to provide governance and strategic oversight.
+
+\subsection{Staffing}
+
+\textbf{Current Staffing Plan (Year 1):}
+
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Position} & \textbf{Number} & \textbf{Monthly Salary (UGX)} \\
+\hline
+Owner/Manager & 1 & Profit share \\
+Lead Stylist & 1 & 400,000-500,000 \\
+Beautician/Makeup Artist & 1 & 300,000-400,000 \\
+Junior Stylist & 1 & 200,000-250,000 \\
+Receptionist & 1 & 200,000-250,000 \\
+\hline
+\textbf{Total} & \textbf{5} & \textbf{1,100,000-1,400,000} \\
+\hline
+\end{tabular}
+
+\vspace{1em}
+
+\textbf{Future Staffing Expansion (Year 2-3):}
+\begin{itemize}[leftmargin=2em]
+    \item Additional stylist (Year 2)
+    \item Marketing coordinator (Year 2)
+    \item Additional beautician (Year 3)
+    \item Assistant manager (Year 3)
+\end{itemize}
+
+\subsection{Personnel Plan}
+
+\textbf{Recruitment Strategy:}
+\begin{itemize}[leftmargin=2em]
+    \item Advertise through beauty schools and training institutes
+    \item Post on university job boards and student networks
+    \item Use social media and online job platforms
+    \item Seek referrals from industry professionals
+    \item Conduct thorough interviews and practical assessments
+\end{itemize}
+
+\textbf{Training and Development:}
+\begin{itemize}[leftmargin=2em]
+    \item Initial 2-week orientation and training program
+    \item Monthly team meetings for updates and feedback
+    \item Quarterly skills development workshops
+    \item Annual attendance at beauty industry conferences or trade shows
+    \item Cross-training to ensure service continuity
+\end{itemize}
+
+\textbf{Compensation and Benefits:}
+\begin{itemize}[leftmargin=2em]
+    \item Competitive base salaries
+    \item Performance-based bonuses (5-10\% of salary)
+    \item Commission on retail product sales (10\%)
+    \item Staff discounts on services (50\% off)
+    \item Contribution to health insurance
+    \item Paid annual leave (15 days)
+    \item Sick leave (10 days)
+    \item Professional development support
+\end{itemize}
+
+\textbf{Performance Management:}
+\begin{itemize}[leftmargin=2em]
+    \item Monthly one-on-one performance reviews
+    \item Customer satisfaction scores as key metric
+    \item Service quality assessments
+    \item Attendance and punctuality tracking
+    \item Annual comprehensive performance evaluation
+    \item Clear promotion pathways
+\end{itemize}
+
+\subsection{Organizational Chart}
+
+\begin{center}
+\textbf{Campus Glam Hub Organizational Structure}
+\vspace{0.5em}
+
+\begin{tikzpicture}[
+    level 1/.style={sibling distance=4cm, level distance=2cm},
+    level 2/.style={sibling distance=3cm, level distance=2cm},
+    every node/.style={rectangle, draw, rounded corners, fill=primarycolor!20, 
+                       text width=3cm, text centered, minimum height=1.2cm, drop shadow},
+    edge from parent/.style={draw, ->, >=stealth, thick}
+]
+
+\node {\textbf{Owner/Manager}\\Namatovu Christine}
+    child {node {\textbf{Lead Stylist}\\Hair Services\\Supervision}
+        child {node[fill=secondarycolor!20] {\textbf{Junior Stylist}\\Assistant\\Cleaning}}
+    }
+    child {node {\textbf{Beautician/}\\textbf{Makeup Artist}\\Makeup \& Skincare}}
+    child {node {\textbf{Receptionist}\\Customer Service\\Admin}};
+
+\end{tikzpicture}
+\end{center}
+
+\vspace{1em}
+
+% Advisory Board
+\begin{center}
+\textbf{Advisory Support Structure}
+\vspace{0.5em}
+
+\begin{tikzpicture}[node distance=2.5cm, auto,
+    advisor/.style={rectangle, draw, fill=accentcolor!30, text width=3cm, text centered, rounded corners, minimum height=1cm, drop shadow},
+    manager/.style={rectangle, draw, fill=primarycolor!40, text width=3.5cm, text centered, rounded corners, minimum height=1.2cm, drop shadow},
+    arrow/.style={<->, >=stealth, thick, dashed}]
+    
+    \node [manager] (manager) {\textbf{Owner/Manager}\\Namatovu Christine};
+    \node [advisor, above left=1.5cm and 2cm of manager] (business) {\textbf{Business Advisor}\\Dr. Ruth Nakato};
+    \node [advisor, above right=1.5cm and 2cm of manager] (financial) {\textbf{Financial Advisor}\\Accountant};
+    \node [advisor, below=of manager] (technical) {\textbf{Technical Advisor}\\Beauty Professional};
+    
+    \draw [arrow] (manager) -- (business);
+    \draw [arrow] (manager) -- (financial);
+    \draw [arrow] (manager) -- (technical);
+    
+\end{tikzpicture}
+\end{center}
+
+\vspace{1em}
+
+\textbf{Reporting Structure:}
+\begin{itemize}[leftmargin=2em]
+    \item All staff report directly to the Owner/Manager
+    \item Lead Stylist supervises Junior Stylist
+    \item Lead Stylist coordinates with Beautician/Makeup Artist on service scheduling
+    \item Receptionist coordinates with all service staff for appointments
+\end{itemize}
+
+\textbf{Advisory Support:}
+\begin{itemize}[leftmargin=2em]
+    \item Dr. Ruth Nakato provides strategic business advice to Owner/Manager
+    \item External accountant provides financial guidance
+    \item Industry professionals provide technical consultation as needed
+\end{itemize}
+
+\vspace{1em}
+
+\begin{tcolorbox}[mybox, title=\textbf{Organizational Design Rationale}]
+\textbf{Flat Structure Benefits:}
+\begin{itemize}[leftmargin=1em, itemsep=0pt]
+    \item Quick decision-making and communication
+    \item Direct owner involvement ensures quality
+    \item Flexible team that can adapt to demand
+    \item Lower overhead costs
+    \item Strong team cohesion
+\end{itemize}
+
+\textbf{Scalability Plan:}
+\begin{itemize}[leftmargin=1em, itemsep=0pt]
+    \item Year 2: Add Assistant Manager role
+    \item Year 2: Hire additional stylist
+    \item Year 3: Create Marketing Coordinator position
+    \item Year 3: Expand to second location (if successful)
+\end{itemize}
+\end{tcolorbox}
+
